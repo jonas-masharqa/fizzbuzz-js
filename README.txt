@@ -8,7 +8,7 @@ reasonable for me though.
 The browserHelper contains what we need to use the e2e training wheels.
 
 The second line does the same, we put the chai library in a global variable so
-we can use it's expect syntax everywhere.
+we can use it's expect syntax.
 
 Question 2:
 
@@ -38,3 +38,20 @@ The code needs to check if the number is divisible by 15 before it checks either
 15 section it would simply return 'Fizz', since it will also be divisible by 3.
 Though i don't really understand why we would actually have to move the 5 section.
 I think it should work with the order of 15, 3, and then 5?
+
+Question 5:
+
+Unit test:
+This tests our code in a more raw way. It tests the logic of our code but not how
+a user would interact with it. 
+
+Feature test:
+This tests our code from the perspective of a user. The feature test behaves like
+a user would more or less on our page, clicks around, types in forms etc.
+
+Question 6:
+
+The browser initializes and goes to our prefered page. Then we tell the test that
+before each test it should reload the page. After that, we tell the test to close
+our our browser after the tests.
+
