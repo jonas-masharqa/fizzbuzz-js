@@ -29,3 +29,12 @@ For example if x = 1, then x == 1 is true. but true === 1 would output false.
 before comparing them and just look at the "true" value, the "===" operator is 
 stricter and doesn't convert the types when comparing, those need to be the same
 as well for it to output true.
+
+Question 4:
+
+Because eventually we are gonna have to put the 15 section at the top anyway.
+The code needs to check if the number is divisible by 15 before it checks either
+3 or 5, because 15 is divisible by both. If the 3 section would appear before the
+15 section it would simply return 'Fizz', since it will also be divisible by 3.
+Though i don't really understand why we would actually have to move the 5 section.
+I think it should work with the order of 15, 3, and then 5?
