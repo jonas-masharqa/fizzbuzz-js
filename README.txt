@@ -59,3 +59,22 @@ Question 7:
 
 Expectations in testing what we are telling the test what WE want the outcome
 to be. So i'm EXPECTING "example" to be equal to "example".
+
+Question 8:
+
+First, we are saying where the source of our JS code is.
+
+Then, we add an event listener to wait for all the content on the DOM to load.
+After that, we grab the button using a selector and storing it in a variable.
+We also grab the div where the result will be displayed and store that in a 
+variable as well.
+
+Then we put an event listener on the button variable and tell it to wait
+for 'click'.
+After the click, we grab whatever was put inside the input field with 
+a selector and store it in a variable.
+Then we create an instance of FizzBuzz.
+Then we tell the fizzbuzz instance to do it's check function so that
+it can check the result of our fizzbuzz game when that particular value
+is put in the input field and put that result inside a variable.
+After that we take the result and put that inside the div that displays the answer.
