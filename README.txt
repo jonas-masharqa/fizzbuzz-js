@@ -55,3 +55,7 @@ The browser initializes and goes to our prefered page. Then we tell the test tha
 before each test it should reload the page. After that, we tell the test to close
 our our browser after the tests.
 
+Question 7:
+
+Expectations in testing what we are telling the test what WE want the outcome
+to be. So i'm EXPECTING "example" to be equal to "example".
