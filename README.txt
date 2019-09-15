@@ -53,7 +53,7 @@ Question 6:
 
 The browser initializes and goes to our prefered page. Then we tell the test that
 before each test it should reload the page. After that, we tell the test to close
-our our browser after the tests.
+our browser after the tests.
 
 Question 7:
 
@@ -78,3 +78,7 @@ Then we tell the fizzbuzz instance to do it's check function so that
 it can check the result of our fizzbuzz game when that particular value
 is put in the input field and put that result inside a variable.
 After that we take the result and put that inside the div that displays the answer.
+
+Question 9:
+A CDN is a group of servers that provide fast delivery of internet content. Like in our case for this
+challenge, a stylesheet.

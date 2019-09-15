@@ -9,13 +9,19 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
+        <h3 class="ui block header">
+                The Fizzbuzz Game!
+                <img class="ui image" src="https://semantic-ui.com/images/icons/school.png">
+              </h3>
         <div class="ui form">
                 <div>
-                  <label>User Input</label>
-                  <input type="text" id="value">
+                  <input type="text" id="value" placeholder="Put in a number!">
                 </div>
               </div>
-    <input type="submit" value="Check" id="button">
+              <button type="submit" value="Check" id="button" class="massive ui button">
+                    Calculate!
+                  </button>
+ 
     <div id="display_answer"></div>
 </body>
 <script src="js/fizzbuzz.js"></script>

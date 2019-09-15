@@ -1,7 +1,41 @@
 .ui.form {
 text-align: center;
-margin-top: 20%;
+margin-top: 15%;
 margin-left: 40%;
-margin-right: 40%
+margin-right: 40%;
+box-sizing: border-box;
+border-color: black;
+font-size: 20px;
+padding: 
 }
 
+.ui.block.header {
+    text-align: center;
+    margin-top: %;
+    margin-left: 25%;
+    margin-right: 25%;
+    opacity: 0.9;
+    border-color: black;
+}
+
+body {
+    background-image: url("http://getwallpapers.com/wallpaper/full/3/9/6/1154709-gorgerous-colors-background-2560x1600-for-ipad-2.jpg");
+    margin: 5%
+}
+
+h3.ui.header {
+    font-size: 40px;
+}
+
+#button.massive.ui.button {
+margin-left: 45%;
+margin-top: 1%
+}
+
+#display_answer {
+    text-align: center;
+    text-size-adjust: 150%;
+    font-size: 40px;
+    color: rgb(131, 30, 35);
+    margin-top: 1%
+}
