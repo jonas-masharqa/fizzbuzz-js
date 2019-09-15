@@ -57,7 +57,7 @@ our browser after the tests.
 
 Question 7:
 
-Expectations in testing what we are telling the test what WE want the outcome
+Expectations in testing are what we are telling the test what WE want the outcome
 to be. So i'm EXPECTING "example" to be equal to "example".
 
 Question 8:
